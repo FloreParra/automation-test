@@ -7,7 +7,7 @@ export class BookingPage extends BasicPage{
     private readonly landingTitle: Locator;
     private readonly fromPort: Locator;
     private readonly toPort: Locator;
-    private readonly submitbutton: Locator;
+    private readonly submitButton: Locator;
     private readonly name: Locator;
     private readonly flight: Locator;
     private readonly address: Locator;
@@ -26,7 +26,7 @@ constructor(page: Page){
     this.landingTitle= page.locator(BookingLocators.landingTitle);
     this.fromPort = page.locator(BookingLocators.fromPort);
     this.toPort = page.locator(BookingLocators.toPort);
-    this.submitbutton = page.locator(BookingLocators.submitButton);
+    this.submitButton = page.locator(BookingLocators.submitButton);
     this.name = page.locator(BookingLocators.name);
     this.flight = page.locator(BookingLocators.flight);
     this.address = page.locator(BookingLocators.address);

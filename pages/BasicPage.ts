@@ -15,7 +15,7 @@ export class BasicPage {
     };
 
     async clickOn(selector: string){
-        await this.page.locator(selector).click();
+        await this.page.click(selector);
     };
 
     async fillField(selector: string, value: string){

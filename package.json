@@ -1,0 +1,23 @@
+{
+  "name": "automation-test-1",
+  "version": "1.0.0",
+  "description": "Pruebas de automatizacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloreParra/automation-test.git"
+  },
+  "author": "Florencia Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FloreParra/automation-test/issues"
+  },
+  "homepage": "https://github.com/FloreParra/automation-test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  }
+}

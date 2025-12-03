@@ -1,7 +1,7 @@
 //Todos los métodos enlazados a Page
 import { Page, expect } from "@playwright/test";
 
-export class BasePage {
+export class BasicPage {
 
     protected readonly page: Page;
     
